@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Project2" parent="Base.Theme.Project2" />
+
+    <style name="ToolbarMuhyi" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/toolbar</item>
+        <item name="theme">@style/Base.Theme.Project2</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat</item>
+    </style>
 </resources>
